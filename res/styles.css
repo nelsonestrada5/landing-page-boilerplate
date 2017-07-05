@@ -115,6 +115,11 @@ section {
   margin-right: auto;
 }
 
+.insert--image.wrap-off-align-left {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 .spacer {
   z-index: 0;
   width: 2.52px;
