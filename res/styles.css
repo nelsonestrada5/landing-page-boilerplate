@@ -124,12 +124,10 @@ section {
 
 .tulip-logo {
   background-image: url(http://i.imgur.com/gHTGXS1.png); 
-  background-attachment: scroll;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  opacity: .69;
+  margin-bottom: -15px;
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .m-lg-v {
