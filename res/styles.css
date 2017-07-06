@@ -111,7 +111,7 @@ section {
 }
 
 .insert--image.wrap-off-align-top {
-  margin-top: 10;
+  margin-top: 0;
 }
 
 .insert--image.wrap-off-align-left {
@@ -123,7 +123,6 @@ section {
   z-index: 0;
   width: 2.52px;
   margin-top: -15px;
-  margin-bottom: -15px;
 }
 
 .m-lg-v {
@@ -168,7 +167,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  opacity: .69;
+  /* opacity: .69; */
 }
 
 h1 {
