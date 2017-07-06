@@ -30,6 +30,7 @@ section {
 }
 
 .bg-image {
+  opacity: 0.85;
   position: fixed;
   top: 0;
   right: 0;
