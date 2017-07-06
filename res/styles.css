@@ -163,7 +163,7 @@ section {
   position: relative;
 }
 
-.bg-image {
+/*.bg-image {
   /* photo from: https://www.pexels.com/photo/road-trees-countryside-forest-57644/ */
   /* background-image: url(http://i.imgur.com/HMneaHk.jpg); */
   /* photo from: https://unsplash.com/photos/rhhK20r1w7A */
@@ -172,15 +172,15 @@ section {
   /* background-image: url(http://i.imgur.com/sdOimna.jpg); */
   /* Cartoon Background: http://i.imgur.com/ayZuDoD.png */
   /* background-image: url(http://i.imgur.com/ayZuDoD.png); */
-  /* Orange TUlip Pattern: http://i.imgur.com/9agVWw8.png */
+  /* Orange TUlip Pattern: http://i.imgur.com/9agVWw8.png 
   background-image: url(http://i.imgur.com/9agVWw8.png);
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  /* opacity: .69; */
-}
+  /* opacity: .69;
+} */
 
 h1 {
   font-size: 34px;
@@ -200,14 +200,14 @@ h1 {
   padding-right: 20px;
   padding-left: 20px;
   height: 50px;
-  /* background-color: #fa8765; */
-  background-color: #62CB38;
+  background-color: #fa8765; 
+  /* background-color: #62CB41; */
   color: #FFF;
 }
 
 .user-signup__submit:hover {
-  /* background-color: #fa8765; */
-  background-color: #62CB41;
+  background-color: #fa8765;
+  /* background-color: #62CB41; */
   color: #FFF;
 }
 
