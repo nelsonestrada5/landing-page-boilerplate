@@ -166,7 +166,9 @@ section {
   /* photo from: https://unsplash.com/search/cars?photo=PAOZCCH6Lww */
   /* background-image: url(http://i.imgur.com/sdOimna.jpg); */
   /* Cartoon Background: http://i.imgur.com/ayZuDoD.png */
-  background-image: url(http://i.imgur.com/ayZuDoD.png);
+  /* background-image: url(http://i.imgur.com/ayZuDoD.png); */
+  /* Orange TUlip Pattern: http://i.imgur.com/9agVWw8.png */
+  background-image: url(http://i.imgur.com/9agVWw8.png);
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
@@ -193,12 +195,14 @@ h1 {
   padding-right: 20px;
   padding-left: 20px;
   height: 50px;
-  background-color: #fa8765;
+  /* background-color: #fa8765; */
+  background-color: #62CB38;
   color: #FFF;
 }
 
 .user-signup__submit:hover {
-  background-color: #fa7a54;
+  /* background-color: #fa8765; */
+  background-color: #62CB41;
   color: #FFF;
 }
 
