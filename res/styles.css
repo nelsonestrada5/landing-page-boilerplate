@@ -111,14 +111,14 @@ section {
   position: relative;
 }
 
-.insert--image.wrap-off-align-center {
+.insert--image.wrap-off-align-top-center {
   margin-left: auto;
-  margin-right: auto;
+  margin-top: 10;
 }
 
 .insert--image.wrap-off-align-left {
   margin-left: 25px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .spacer {
