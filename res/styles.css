@@ -168,7 +168,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  /* opacity: .69; */
+  opacity: .69;
 }
 
 h1 {
