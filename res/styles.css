@@ -114,6 +114,11 @@ section {
   margin-top: 0;
 }
 
+.insert--image.wrap-off-align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .insert--image.wrap-off-align-left {
   margin-left: 25px;
   margin-top: 25px;
