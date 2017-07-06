@@ -124,6 +124,7 @@ section {
   z-index: 0;
   width: 2.52px;
   margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 .m-lg-v {
@@ -189,12 +190,12 @@ h1 {
   padding-right: 20px;
   padding-left: 20px;
   height: 50px;
-  background-color: #00a651;
+  background-color: #fa8765;
   color: #FFF;
 }
 
 .user-signup__submit:hover {
-  background-color: #1cd861;
+  background-color: #fa7a54;
   color: #FFF;
 }
 
