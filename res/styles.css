@@ -13,7 +13,7 @@ body {
   font-family: 'Open Sans';
   line-height: 1.42857;
   font-size: 17px;
-  background-color: #FFF;
+  background-color: rgba(0,0,0,1);
   color: #FFF;
   word-wrap: normal;
 }
@@ -111,12 +111,7 @@ section {
 }
 
 .insert--image.wrap-off-align-top {
-  margin-top: 0;
-}
-
-.insert--image.wrap-off-align-center {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10;
 }
 
 .insert--image.wrap-off-align-left {
@@ -128,6 +123,7 @@ section {
   z-index: 0;
   width: 2.52px;
   margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 .m-lg-v {
@@ -163,31 +159,28 @@ section {
   position: relative;
 }
 
-/*.bg-image {
+.bg-image {
   /* photo from: https://www.pexels.com/photo/road-trees-countryside-forest-57644/ */
-  /* background-image: url(http://i.imgur.com/HMneaHk.jpg); */
-  /* photo from: https://unsplash.com/photos/rhhK20r1w7A */
-  /* background-image: url(http://i.imgur.com/7Xp2wN1.jpg); */
-  /* photo from: https://unsplash.com/search/cars?photo=PAOZCCH6Lww */
-  /* background-image: url(http://i.imgur.com/sdOimna.jpg); */
-  /* Cartoon Background: http://i.imgur.com/ayZuDoD.png */
-  /* background-image: url(http://i.imgur.com/ayZuDoD.png); */
-  /* Orange TUlip Pattern: http://i.imgur.com/9agVWw8.png 
-  background-image: url(http://i.imgur.com/9agVWw8.png);
+  /* background-image: url(/res/background.jpg); */
+  background-image: url(http://i.imgur.com/HMneaHk.jpg); 
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  /* opacity: .69;
-} */
+  opacity: .69;
+}
 
 h1 {
   font-size: 34px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .form-control__input {
-  border-width: 2;
+  border-width: 0;
   border-radius: 0;
   font-size: 14px;
   height: 50px;
@@ -200,14 +193,12 @@ h1 {
   padding-right: 20px;
   padding-left: 20px;
   height: 50px;
-  background-color: #fa8765; 
-  /* background-color: #62CB41; */
+  background-color: #fa8765;
   color: #FFF;
 }
 
 .user-signup__submit:hover {
-  background-color: #fa8765;
-  /* background-color: #62CB41; */
+  background-color: #fa7a54;
   color: #FFF;
 }
 
@@ -217,16 +208,24 @@ h1 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 44px;
   }
 }
 
 @media all and (min-width:769px) {
   p {
-    font-size: 26px;
+    font-size: 32px;
   }
 
   h1 {
-    font-size: 52px;
+    font-size: 66px;
+  }
+  
+  h2 {
+    font-size: 60px;
   }
 }
