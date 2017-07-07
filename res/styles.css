@@ -184,13 +184,20 @@ section {
 
 h1 {
   font-size: 34px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center; 
   color: #6c7680
 }
 
 h2 {
   font-size: 30px;
+  font-weight: 300;
+  text-align: center; 
+  color: #6c7680
+}
+
+p {
+  font-size: 14px;
   font-weight: 300;
   text-align: center; 
   color: #6c7680
